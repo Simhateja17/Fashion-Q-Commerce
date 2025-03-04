@@ -1,7 +1,10 @@
 {
   "name": "fashion_qc_backend",
   "version": "1.0.0",
-  "main": "backend_setup.js",
+  "main": ""scripts": {
+  "start": "node backend_setup.js"
+}
+",
   "scripts": {
   "start": "node admin_panel.js"
 },
