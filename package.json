@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": ""scripts": {
   "start": "node backend_setup.js"
-}
-",
+},
   "scripts": {
   "start": "node admin_panel.js"
 },
