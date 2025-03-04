@@ -2,7 +2,7 @@
   "name": "fashion_qc_backend",
   "version": "1.0.0",
   "main": "backend_setup.j"
-  scripts": {
+  "scripts": {
   "start": "node backend_setup.js"
 
 },
