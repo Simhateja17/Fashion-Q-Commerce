@@ -1,0 +1,18 @@
+{
+  "rules": {
+    "users": {
+      "$uid": {
+        ".read": "$uid === request.auth.uid",
+        ".write": "$uid === request.auth.uid"
+      }
+    },
+    "orders": {
+      ".read": "request.auth != null",
+      ".write": "request.auth != null && request.auth.token.role == 'customer'"
+    },
+    "admin": {
+      ".read": "request.auth.token.role == 'admin'",
+      ".write": "request.auth.token.role == 'admin'"
+    }
+  }
+}
